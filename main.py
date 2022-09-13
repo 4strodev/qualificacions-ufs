@@ -1,3 +1,4 @@
+# Author Juan Alejandro Marin AKA 4strodev
 # Definició de classes
 class UnitatFormativa:
     nom = None
