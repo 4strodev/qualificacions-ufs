@@ -1,2 +1,9 @@
 # Unitats Formatives
-![UML diagram](./.github/UnitatFormativaUML.png)
+
+<p align="center">
+    <img src="./.github/UnitatFormativaUML.png" alt="diagrama de sequencia">
+</p>
+
+<p align="center">
+    <img src="./.github/ClasseUF.png" alt="diagrama de sequencia">
+</p>
