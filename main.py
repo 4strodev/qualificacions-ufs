@@ -20,3 +20,4 @@ uf3.qualificacio = 4
 print(uf1.nom, ":", uf1.qualificacio)
 print(uf2.nom, ":", uf1.qualificacio)
 print(uf3.nom, ":", uf1.qualificacio)
+
