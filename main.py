@@ -1,8 +1,8 @@
 # Definició de classes
 class UnitatFormativa:
-    nom = None
-    qualificacio = None
-    hores = None
+    nom = ''
+    qualificacio = 0
+    hores = 0
 
     def __init__(self, nom, hores):
         self.nom = nom
@@ -10,7 +10,7 @@ class UnitatFormativa:
 
 
 class ModulProfessional:
-    nom = None
+    nom = ''
     unitats_formatives = []
 
     def __init__(self, nom):
@@ -39,7 +39,7 @@ uf1.qualificacio = 8
 uf2.qualificacio = 10
 uf3.qualificacio = 4
 
-mp5 = ModulProfessiona("MP05. Entorns de desenvolupament")
+mp5 = ModulProfessional("MP05. Entorns de desenvolupament")
 
 mp5.afegirUnitatFormativa(uf1)
 mp5.afegirUnitatFormativa(uf2)
