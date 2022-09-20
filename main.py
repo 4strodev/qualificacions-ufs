@@ -9,7 +9,7 @@ class UnitatFormativa:
         self.hores = hores
 
 
-class ModulProfessiona:
+class ModulProfessional:
     nom = None
     unitats_formatives = []
 
