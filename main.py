@@ -1,16 +1,6 @@
 # Definició de classes
 from ModulProfessional import ModulProfessional
-
-
-class UnitatFormativa:
-    nom = ''
-    qualificacio = 0
-    hores = 0
-
-    def __init__(self, nom, hores):
-        self.nom = nom
-        self.hores = hores
-
+from UnitatFormativa import UnitatFormativa
 
 # Inici del programa
 uf1 = UnitatFormativa("UF1. Desenvolupament del programari", 20)
