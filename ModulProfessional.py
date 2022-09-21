@@ -5,10 +5,10 @@ class ModulProfessional:
     def __init__(self, nom):
         self.nom = nom
 
-    def afegirUnitatFormativa(self, unitat_formativa):
+    def afegir_unitat_formativa(self, unitat_formativa):
         self.unitats_formatives.append(unitat_formativa)
 
-    def getQualificacio(self):
+    def get_qualificacio(self):
         suma_hores = 0
         suma_qualificacio = 0
 
