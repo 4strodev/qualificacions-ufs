@@ -17,7 +17,7 @@ class ModulProfessional:
         self.nom = nom
 
     def afegirUnitatFormativa(self, unitat_formativa):
-        self.unitats_formatives.append(unitat_formativa);
+        self.unitats_formatives.append(unitat_formativa)
 
     def getQualificacio(self):
         suma_hores = 0
