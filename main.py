@@ -1,4 +1,7 @@
 # Definició de classes
+from ModulProfessional import ModulProfessional
+
+
 class UnitatFormativa:
     nom = ''
     qualificacio = 0
@@ -7,27 +10,6 @@ class UnitatFormativa:
     def __init__(self, nom, hores):
         self.nom = nom
         self.hores = hores
-
-
-class ModulProfessional:
-    nom = ''
-    unitats_formatives = []
-
-    def __init__(self, nom):
-        self.nom = nom
-
-    def afegirUnitatFormativa(self, unitat_formativa):
-        self.unitats_formatives.append(unitat_formativa)
-
-    def getQualificacio(self):
-        suma_hores = 0
-        suma_qualificacio = 0
-
-        for uf in self.unitats_formatives:
-            suma_hores += uf.hores
-            suma_qualificacio += (uf.qualificacio * uf.hores)
-
-        return suma_qualificacio / suma_hores
 
 
 # Inici del programa
