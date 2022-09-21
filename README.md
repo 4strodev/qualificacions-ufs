@@ -1,7 +1,7 @@
 # Unitats Formatives
 
 <p style="display: flex; justify-content: center">
-    <img src="./.github/.png" alt="diagrama de sequencia">
+    <img src="./.github/Execucio.png" alt="diagrama de sequencia">
 </p>
 
 <p style="display: flex; justify-content: center">
